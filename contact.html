@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | CK Brew Co.</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==================== NAVBAR ==================== -->
+
+    <header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="index.html" class="logo">
+            <span class="logo-mark">
+                <svg viewBox="0 0 64 64" aria-hidden="true">
+                    <path d="M18 20h28v20c0 8-6 14-14 14S18 48 18 40V20Z" fill="none" stroke="currentColor" stroke-width="3"/>
+                    <path d="M46 25h4c5 0 8 3 8 8s-3 8-8 8h-4" fill="none" stroke="currentColor" stroke-width="3"/>
+                    <path d="M25 13c-2 3 2 4 0 7M34 11c-2 3 2 4 0 7M43 13c-2 3 2 4 0 7" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+            </span>
+            <span class="logo-text">CK <span>BREW CO.</span></span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu">☰</button>
+
+        <nav class="nav-links">
+                        <a href="index.html">HOME</a>
+                        <a href="menu.html">MENU</a>
+                        <a href="about.html">ABOUT</a>
+                        <a href="contact.html" class="active">CONTACT</a>
+                        <a href="order.html" class="nav-order">ORDER NOW</a>
+        </nav>
+
+    </div>
+
+</header>
+
+
+
+    <!-- ==================== CONTACT PAGE ==================== -->
+
+    <main>
+
+
+        <!-- ==================== CONTACT HERO ==================== -->
+
+        <section class="contact-hero">
+
+            <div class="contact-hero-inner">
+
+                <span class="eyebrow">
+                    GET IN TOUCH
+                </span>
+
+                <h1>
+                    Let's have<br>
+                    coffee.
+                </h1>
+
+                <p>
+                    Have a question, want to say hello, or simply
+                    looking for your next coffee fix? We'd love to
+                    hear from you.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================== CONTACT INFORMATION ==================== -->
+
+        <section class="contact-info">
+
+            <div class="contact-info-grid">
+
+
+                <!-- LOCATION -->
+
+                <article class="contact-info-card">
+
+                    <span class="contact-card-number">
+                        01
+                    </span>
+
+                    <div class="contact-icon">
+                        ⌖
+                    </div>
+
+                    <h3>
+                        Visit Us
+                    </h3>
+
+                    <p>
+                        Santa Cruz,<br>
+                        Davao del Sur
+                    </p>
+
+                </article>
+
+
+
+                <!-- HOURS -->
+
+                <article class="contact-info-card">
+
+                    <span class="contact-card-number">
+                        02
+                    </span>
+
+                    <div class="contact-icon">
+                        ◷
+                    </div>
+
+                    <h3>
+                        Opening Hours
+                    </h3>
+
+                    <p>
+                        Monday — Sunday<br>
+                        7:00 AM — 9:00 PM
+                    </p>
+
+                </article>
+
+
+
+                <!-- CONTACT -->
+
+                <article class="contact-info-card">
+
+                    <span class="contact-card-number">
+                        03
+                    </span>
+
+                    <div class="contact-icon">
+                        @
+                    </div>
+
+                    <h3>
+                        Reach Us
+                    </h3>
+
+                    <p>
+                        ckbrewco@gmail.com<br>
+                        +63 907 026 5972
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================== CONTACT FORM + MAP ==================== -->
+
+        <section class="contact-main">
+
+            <div class="contact-main-grid">
+
+
+                <!-- ==================== CONTACT FORM ==================== -->
+
+                <div class="contact-form-container">
+
+                    <span class="eyebrow">
+                        SEND US A MESSAGE
+                    </span>
+
+                    <h2>
+                        We'd love to hear<br>
+                        from you.
+                    </h2>
+
+                    <p class="contact-form-intro">
+                        Fill out the form below and we'll get back
+                        to you as soon as we can.
+                    </p>
+
+
+                    <form
+                        class="contact-form"
+                        id="contactForm"
+                    >
+
+                        <!-- NAME -->
+
+                        <div class="form-group">
+
+                            <label for="name">
+                                Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Your name"
+                                required
+                            >
+
+                        </div>
+
+
+
+                        <!-- EMAIL -->
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                Email
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="you@example.com"
+                                required
+                            >
+
+                        </div>
+
+
+
+                        <!-- MESSAGE -->
+
+                        <div class="form-group">
+
+                            <label for="message">
+                                Message
+                            </label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="5"
+                                placeholder="Write your message..."
+                                required
+                            ></textarea>
+
+                        </div>
+
+
+
+                        <!-- SUBMIT -->
+
+                        <button
+                            type="submit"
+                            class="primary-btn"
+                        >
+                            SEND MESSAGE
+                        </button>
+
+                    </form>
+
+                </div>
+
+
+
+                <!-- ==================== LOCATION ==================== -->
+
+                <div class="contact-location">
+
+                    <div class="location-box">
+
+                        <div class="location-content">
+
+                            <span class="eyebrow">
+                                FIND US
+                            </span>
+
+                            <h2>
+                                Come grab a cup.
+                            </h2>
+
+                            <p>
+                                CK Brew Co. is your cozy everyday
+                                coffee spot in Santa Cruz.
+                            </p>
+
+                            <div class="location-details">
+
+                                <div class="location-detail">
+
+                                    <span>
+                                        LOCATION
+                                    </span>
+
+                                    <strong>
+                                        Santa Cruz, Davao del Sur, Philippines
+                                    </strong>
+
+                                </div>
+
+
+                                <div class="location-detail">
+
+                                    <span>
+                                        HOURS
+                                    </span>
+
+                                    <strong>
+                                        7:00 AM — 9:00 PM
+                                    </strong>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- REAL MAP -->
+
+                        <div class="map-placeholder">
+
+                            <iframe
+                                src="https://www.google.com/maps?q=Santa%20Cruz%2C%20Davao%20del%20Sur%2C%20Philippines&output=embed"
+                                title="Map of Santa Cruz, Davao del Sur"
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                            ></iframe>
+
+                            <div class="map-overlay"></div>
+
+                            <div class="map-location-badge">
+                                <span class="map-location-dot"></span>
+                                <div>
+                                    <strong>CK BREW CO.</strong>
+                                    <small>Santa Cruz, Davao del Sur</small>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================== SOCIAL / CONNECT ==================== -->
+
+        <section class="contact-connect">
+
+            <div class="contact-connect-inner">
+
+                <span class="eyebrow">
+                    STAY CONNECTED
+                </span>
+
+                <h2>
+                    Good coffee is better<br>
+                    when shared.
+                </h2>
+
+                <p>
+                    Follow CK Brew Co. for new drinks, café updates,
+                    and little moments from our everyday coffee life.
+                </p>
+
+                <div class="social-links">
+
+                    <a href="#" aria-label="Facebook">
+                        FB
+                    </a>
+
+                    <a href="#" aria-label="Instagram">
+                        IG
+                    </a>
+
+                    <a href="#" aria-label="TikTok">
+                        TK
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================== CONTACT CTA ==================== -->
+
+        <section class="contact-cta">
+
+            <div class="contact-cta-box">
+
+                <div>
+
+                    <span class="eyebrow">
+                        HUNGRY FOR A CUP?
+                    </span>
+
+                    <h2>
+                        Your coffee<br>
+                        is waiting.
+                    </h2>
+
+                </div>
+
+                <a
+                    href="order.html"
+                    class="primary-btn"
+                >
+                    ORDER NOW
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ==================== FOOTER ==================== -->
+
+    <footer class="footer">
+
+    <div class="footer-top">
+
+        <div class="footer-brand">
+            <div class="footer-logo">
+                <div class="footer-logo-mark">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M4 9h13v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V9Z"></path>
+                        <path d="M17 11h1.5a2.5 2.5 0 0 1 0 5H17"></path>
+                        <path d="M8 5c0 1-1 1-1 2M12 5c0 1-1 1-1 2"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h2>CK Brew Co.</h2>
+                    <p>Brewed for Your Everyday.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-links">
+            <h4>QUICK LINKS</h4>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="order.html">Order</a>
+        </div>
+
+        <div class="footer-social">
+            <span>FOLLOW ALONG</span>
+            <div>
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="Facebook">FB</a>
+                <a href="#" aria-label="TikTok">TK</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <span>© 2026 CK Brew Co. All rights reserved.</span>
+        <span>BREWED WITH CARE.</span>
+    </div>
+
+</footer>
+
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
